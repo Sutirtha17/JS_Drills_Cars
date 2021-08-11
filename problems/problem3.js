@@ -1,6 +1,8 @@
 module.exports = {
     problem3: function(inventory)
     {
+    if(inventory.length==0)
+    return [];
     for( let i=0; i<inventory.length;i++)             // using selection-sort
         {
              let min=i;                              // storing the index i in min variable initially
